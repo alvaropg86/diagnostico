@@ -1,0 +1,20 @@
+$(document).ready(function() {
+    $("#prod").click(function(){
+        $("#central").load("producto.html");
+    });
+    $("#local").click(function(){
+        $("#central").load("local.html");
+    });
+    $("#prod_mobile").click(function(){
+        $("#central").load("producto.html");
+    });
+    $("#local_mobile").click(function(){
+        $("#central").load("local.html");
+    });
+    $("#promos").click(function(){
+        $("#central").load("promos.html");
+    });
+    $("#promos_mobile").click(function(){
+        $("#central").load("promos.html");
+    });
+});
